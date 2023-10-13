@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(22, 43, 40);
+    font-family: sans-serif;
+}
+
+.headcontain{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ul{
+    list-style-type:none;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(112, 112, 112);
+}
+
+.header{
+    font-size: 25px;
+    color: rgb(52, 100, 136);
+    font-weight: 900;
+    display: flex;
+}
+
+.headerlinks{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.showcase{
+    font-size: 18px;
+    font-weight: 700;
+    
+}
