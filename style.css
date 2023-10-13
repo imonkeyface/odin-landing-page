@@ -1,12 +1,14 @@
 body{
     background-color: rgb(22, 43, 40);
     font-family: sans-serif;
+    width: 100%;
 }
 
 .headcontain{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 50px;
 }
 
 ul{
@@ -15,12 +17,12 @@ ul{
 
 a{
     text-decoration: none;
-    color:rgb(112, 112, 112);
+    color:rgb(186, 186, 186);
 }
 
 .header{
     font-size: 25px;
-    color: rgb(52, 100, 136);
+    color: rgb(79, 171, 154);
     font-weight: 900;
     display: flex;
 }
@@ -30,9 +32,83 @@ a{
     justify-content: space-between;
     gap: 12px;
 }
+.starter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.rightstart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.startingwords{
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    color: rgb(113, 240, 217);
+    justify-content: center;
+}
+
+.elaborate{
+    color:rgb(79, 171, 154);
+}
+.eye{
+    display: flex;
+    width: 250px;
+    margin:40px;
+    border-radius: 10px;
+    
+}
+
+.imageshow{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.backtest{
+    background-color: rgb(79, 171, 154);
+    flex-shrink:0;
+    flex-grow: 1;
+
+}
+
+.imagelist{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
 
 .showcase{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
-    
+    color: rgb(22, 43, 40);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.showy{
+    display: flex;
+    width: 300px;
+    margin: 50px;
+    border-radius: 10px;
+
+}
+
+button{
+    border-radius: 10px;
+    background-color: rgb(38, 54, 96);
+    height:30px;
+    width: 90px;
+    border-style: solid;
+    border-color:rgb(65, 77, 142);
+    color:rgb(255, 255, 255);
 }
